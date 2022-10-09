@@ -31,7 +31,7 @@
     scale: 0.5;
 }
 
-/* Esercizio 6 */
+/* Esercizio 6 -7 - 8 */
 .ex-6-img:hover {
     filter: grayscale(1);
 }
@@ -43,4 +43,17 @@
 .ex-8-img:hover {
     filter: sepia(1);
     border-radius: 20px;
+}
+
+/* Esercizio 9 */
+.ex-9-img:hover {
+    filter: sepia(0.8);
+    border-radius: 20px;
+    scale: 1.5;
+}
+
+@keyframes rotazione {
+    0% {
+        transform: rotate(1turn);
+    }
 }

@@ -44,10 +44,13 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: filter 3s, border-radius 3s, scale 3s;
 }
 .ex-10-icon {
     font-size: 60px;
+    animation: rotazione 1s linear infinite;
 }
+
 .ex-11-icon {
     font-size: 60px;
 }
