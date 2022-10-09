@@ -33,6 +33,14 @@
     width: 500px;
 }
 
+.ex-7-img {
+    transition: filter 3s;
+}
+
+.ex-8-img {
+    transition: filter 5s, border-radius 3s;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
