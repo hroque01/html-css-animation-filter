@@ -13,11 +13,13 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 2s;
 }
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: opacity 3s;
 }
 .ex-5-square {
     margin: 20px;
