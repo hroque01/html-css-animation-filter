@@ -76,3 +76,42 @@
         transform: rotate(0deg);
     }
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: back 5s ease-out;
+}
+
+@keyframes back {
+
+    0% {
+        left: 25px;
+    }
+    
+    25% {
+        left: 125px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: back2 5s ease-out;
+}
+
+@keyframes back2 {
+
+    0% {
+        right: 25px;
+    }
+    
+    25% {
+        right: 125px;
+    }
+
+    100% {
+        right: 0px;
+    }
+}
