@@ -52,8 +52,27 @@
     scale: 1.5;
 }
 
+/* Esercizio 10 */
 @keyframes rotazione {
     0% {
         transform: rotate(1turn);
+    }
+}
+/* Esercizio 11 */
+.ex-11-icon:hover {
+    animation: halfrotation 1s ease-in;
+}
+
+@keyframes halfrotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    95% {
+        transform: rotate(278deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
     }
 }
